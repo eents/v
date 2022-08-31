@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    outline: 1px dotted crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: slategray;
+}
+
+#content-area {
+    /* aspect-ratio: 3/2; */
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+#monitor-img {
+    width: 100%;
+}
+
+@media (max-width: 27rem) {
+
+    #content-area {
+        margin-top: 11rem;
+        overflow: hidden;
+        height: auto;
+        /* display: flexbox;
+        align-items: center; */
+    }
+
+    #monitor-img {
+        width: 135%;
+        margin-left: -19.5%;
+    }
+
+    #stand-img {
+        width: 120%;
+    }
+
+}
